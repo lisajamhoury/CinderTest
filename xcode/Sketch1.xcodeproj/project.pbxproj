@@ -16,11 +16,14 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
+		2DD0C5A21DAEE22D0064CDE0 /* LeftSensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0C5A01DAEE22D0064CDE0 /* LeftSensor.cpp */; };
+		2DD0C5A51DAEF1550064CDE0 /* RightSensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0C5A31DAEF1550064CDE0 /* RightSensor.cpp */; };
+		2DD0C5A81DAEF5EF0064CDE0 /* PulseSensor1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0C5A61DAEF5EF0064CDE0 /* PulseSensor1.cpp */; };
+		2DD0C5AB1DAF04660064CDE0 /* PulseLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0C5A91DAF04660064CDE0 /* PulseLine.cpp */; };
+		2DD0C5AE1DAF28F80064CDE0 /* PulseSensor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0C5AC1DAF28F80064CDE0 /* PulseSensor2.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		5621D4D7DECB4F25810E992D /* Sketch1_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2170B66547DE42019EE72E9F /* Sketch1_Prefix.pch */; };
 		8B1E6EE42B8F40769A571DE3 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20B0DB373F2746049B05C6BD /* CinderApp.icns */; };
-		EB8545941B624C6DA1BA8E37 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC024D5D0624DA9807E3D73 /* Resources.h */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		E8D7AC95C190446DAFF539B9 /* Sketch1App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA595B11BB0B45ACA8A61911 /* Sketch1App.cpp */; };
 /* End PBXBuildFile section */
 
@@ -35,15 +38,25 @@
 		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		20B0DB373F2746049B05C6BD /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		2170B66547DE42019EE72E9F /* Sketch1_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Sketch1_Prefix.pch; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2DD0C5A01DAEE22D0064CDE0 /* LeftSensor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeftSensor.cpp; sourceTree = "<group>"; };
+		2DD0C5A11DAEE22D0064CDE0 /* LeftSensor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LeftSensor.hpp; sourceTree = "<group>"; };
+		2DD0C5A31DAEF1550064CDE0 /* RightSensor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RightSensor.cpp; sourceTree = "<group>"; };
+		2DD0C5A41DAEF1550064CDE0 /* RightSensor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RightSensor.hpp; sourceTree = "<group>"; };
+		2DD0C5A61DAEF5EF0064CDE0 /* PulseSensor1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = PulseSensor1.cpp; sourceTree = "<group>"; tabWidth = 2; };
+		2DD0C5A71DAEF5EF0064CDE0 /* PulseSensor1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PulseSensor1.hpp; sourceTree = "<group>"; };
+		2DD0C5A91DAF04660064CDE0 /* PulseLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PulseLine.cpp; sourceTree = "<group>"; };
+		2DD0C5AA1DAF04660064CDE0 /* PulseLine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PulseLine.hpp; sourceTree = "<group>"; };
+		2DD0C5AC1DAF28F80064CDE0 /* PulseSensor2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = PulseSensor2.cpp; sourceTree = "<group>"; tabWidth = 2; };
+		2DD0C5AD1DAF28F80064CDE0 /* PulseSensor2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PulseSensor2.hpp; sourceTree = "<group>"; };
+		4BC024D5D0624DA9807E3D73 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		61273A276ECB427E928266EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Sketch1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA595B11BB0B45ACA8A61911 /* Sketch1App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/Sketch1App.cpp; sourceTree = "<group>"; name = Sketch1App.cpp; };
-		4BC024D5D0624DA9807E3D73 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		20B0DB373F2746049B05C6BD /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		61273A276ECB427E928266EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		2170B66547DE42019EE72E9F /* Sketch1_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Sketch1_Prefix.pch; sourceTree = "<group>"; name = Sketch1_Prefix.pch; };
+		FA595B11BB0B45ACA8A61911 /* Sketch1App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Sketch1App.cpp; path = ../src/Sketch1App.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				FA595B11BB0B45ACA8A61911 /* Sketch1App.cpp */,
+				2DD0C5A01DAEE22D0064CDE0 /* LeftSensor.cpp */,
+				2DD0C5A31DAEF1550064CDE0 /* RightSensor.cpp */,
+				2DD0C5A61DAEF5EF0064CDE0 /* PulseSensor1.cpp */,
+				2DD0C5AC1DAF28F80064CDE0 /* PulseSensor2.cpp */,
+				2DD0C5A91DAF04660064CDE0 /* PulseLine.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,18 +149,16 @@
 			name = Sketch1;
 			sourceTree = "<group>";
 		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
 				4BC024D5D0624DA9807E3D73 /* Resources.h */,
 				2170B66547DE42019EE72E9F /* Sketch1_Prefix.pch */,
+				2DD0C5A11DAEE22D0064CDE0 /* LeftSensor.hpp */,
+				2DD0C5A41DAEF1550064CDE0 /* RightSensor.hpp */,
+				2DD0C5A71DAEF5EF0064CDE0 /* PulseSensor1.hpp */,
+				2DD0C5AD1DAF28F80064CDE0 /* PulseSensor2.hpp */,
+				2DD0C5AA1DAF04660064CDE0 /* PulseLine.hpp */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -184,6 +207,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sketch1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -219,6 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD0C5AE1DAF28F80064CDE0 /* PulseSensor2.cpp in Sources */,
+				2DD0C5AB1DAF04660064CDE0 /* PulseLine.cpp in Sources */,
+				2DD0C5A51DAEF1550064CDE0 /* RightSensor.cpp in Sources */,
+				2DD0C5A81DAEF5EF0064CDE0 /* PulseSensor1.cpp in Sources */,
+				2DD0C5A21DAEE22D0064CDE0 /* LeftSensor.cpp in Sources */,
 				E8D7AC95C190446DAFF539B9 /* Sketch1App.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +260,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sketch1_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sketch1_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -262,12 +292,12 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sketch1_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sketch1_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -284,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../../../..";
+				CINDER_PATH = ../../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				ENABLE_TESTABILITY = YES;
@@ -302,7 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../../../..";
+				CINDER_PATH = ../../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
